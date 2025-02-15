@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('https://d2228rr16d3wie.cloudfront.net/photos/places/Vizag/Visakhapatnam.webp'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .navbar {
+            position: absolute;
+            top: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .heading {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .heading img {
+            width: 100px; /* Logo size */
+            height: 100px;
+            object-fit: contain; /* Ensures the full logo is visible */
+            border-radius: 10px;
+            border: 2px solid white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            background: white;
+            padding: 5px;
+        }
+
+        .heading h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .content {
+            font-style: italic;
+            font-size: 24px;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="heritage.html">Heritage</a>
+        <a href="hotelbooking.html">Hotel Booking</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <!-- Heading Section -->
+    <div class="heading">
+     <img src="images/vizag.jpeg" alt="Vizag Logo">
+        <h1>Visakhapatnam</h1>
+    </div>
+
+    <!-- Description Content -->
+    <div class="content">
+        Vizag, also known as Visakhapatnam, is a beautiful coastal city in Andhra Pradesh, India. 
+        It is renowned for its stunning beaches, serene landscapes, and rich cultural heritage.
+    </div>
+
+</body>
+</html>
